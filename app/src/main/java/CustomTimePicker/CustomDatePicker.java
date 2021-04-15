@@ -129,6 +129,7 @@ public class CustomDatePicker implements View.OnClickListener, PickerView.OnSele
 
         mDpvYear = mPickerDialog.findViewById(R.id.dpv_year);
         mDpvYear.setOnSelectListener(this);
+
         mDpvMonth = mPickerDialog.findViewById(R.id.dpv_month);
         mDpvMonth.setOnSelectListener(this);
         mDpvDay = mPickerDialog.findViewById(R.id.dpv_day);
@@ -484,7 +485,9 @@ public class CustomDatePicker implements View.OnClickListener, PickerView.OnSele
      *
      * @param dateStr 日期字符串，格式为 yyyy-MM-dd 或 yyyy-MM-dd HH:mm
      */
-    public void show(String dateStr) {
+
+    public void show(String dateStr)
+    {
         if (!canShow() || TextUtils.isEmpty(dateStr)) return;
 
         // 弹窗时，考虑用户体验，不展示滚动动画
@@ -505,8 +508,8 @@ public class CustomDatePicker implements View.OnClickListener, PickerView.OnSele
      * @return 是否设置成功
      */
     public boolean setSelectedTime(String dateStr, boolean showAnim) {
-        return canShow() && !TextUtils.isEmpty(dateStr)
-                && setSelectedTime(DateFormatUtils.str2Long(dateStr, mCanShowPreciseTime), showAnim);
+        return canShow() && !TextUtils.isEmpty(dateStr) &&
+                setSelectedTime(DateFormatUtils.str2Long(dateStr, mCanShowPreciseTime), showAnim);
     }
 
     /**

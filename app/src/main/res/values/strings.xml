@@ -8,10 +8,18 @@
     <string name="hour">时</string>
     <string name="minute">分</string>
 
-    <string name="app_name">MyApp</string>
+    <string name="app_name">Automatic filling application</string>
     <string name="select_date">选择日期</string>
     <string name="current_date">当前日期</string>
     <string name="select_time">选择时间</string>
     <string name="current_time">当前时间</string>
+
+    <string name="account">一卡通：</string>
+    <string name="password">密码：</string>
+    <string name="text1">每日填报时间</string>
+    <string name="text2">是否每日自动填报</string>
+    <string name="text3">今日是否填报</string>
+
+    <string name="whether_fill">已填报</string>
 
 </resources>
