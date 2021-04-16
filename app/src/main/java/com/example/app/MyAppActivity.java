@@ -2,13 +2,11 @@ package com.example.app;
 
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import CustomTimePicker.*;
 
 public class MyAppActivity extends AppCompatActivity {
 
@@ -23,7 +21,8 @@ public class MyAppActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent =
-                        new Intent(MyAppActivity.this, TimePickerActivity.class);
+                        new Intent(MyAppActivity.this,
+                                com.example.app.SetTime.TimePickerActivity.class);
                 startActivity(intent);
             }
         });
