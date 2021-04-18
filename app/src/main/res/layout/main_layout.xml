@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">-->
+
     <TableLayout
         android:id="@+id/main_layout_TableLayout1"
         android:layout_width="fill_parent"
@@ -26,9 +27,10 @@
                 android:textSize="20sp"
                 android:textColor="#000000"/>
             <EditText
+                android:id="@+id/main_layout_editText_Account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="请输入卡号"
+                android:hint="@string/default_account"
                 android:minWidth="200dp"/>
             <TextView/>
         </TableRow>
@@ -47,12 +49,12 @@
                 android:hint="请输入内容"
                 android:minWidth="200dp"/>-->
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/main_layout_editText_PassWord"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:hint="请输入密码"/>
+                android:hint="@string/default_password"/>
 
             <TextView/>
         </TableRow>
@@ -73,7 +75,7 @@
             android:layout_marginRight="10dp"
             />-->
         <Button
-            android:id="@+id/main_layout_button2"
+            android:id="@+id/main_layout_SaveButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="15dp"
@@ -226,7 +228,7 @@
                     android:layout_marginRight="10dp"
                     />-->
         <Button
-            android:id="@+id/main_layout_button4"
+            android:id="@+id/main_layout_SaveButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="15dp"

@@ -1,25 +1,29 @@
 <resources>
+    <string name="app_name">Automatic filling application</string>
+
+    <string name="account">一卡通：</string>
+    <string name="default_account">请输入卡号</string>
+    <string name="password">密码：</string>
+    <string name="default_password">请输入密码</string>
+    <string name="text1">每日填报时间</string>
+    <string name="text2">是否每日自动填报</string>
+    <string name="text3">今日是否填报</string>
+    <string name="whether_fill">已填报</string>
+
     <string name="cancel">取消</string>
     <string name="title">请选择时间</string>
     <string name="confirm">确定</string>
+
     <string name="year">年</string>
     <string name="month">月</string>
     <string name="day">日</string>
     <string name="hour">时</string>
     <string name="minute">分</string>
 
-    <string name="app_name">Automatic filling application</string>
     <string name="select_date">选择日期</string>
     <string name="current_date">当前日期</string>
     <string name="select_time">选择时间</string>
     <string name="current_time">当前时间</string>
 
-    <string name="account">一卡通：</string>
-    <string name="password">密码：</string>
-    <string name="text1">每日填报时间</string>
-    <string name="text2">是否每日自动填报</string>
-    <string name="text3">今日是否填报</string>
-
-    <string name="whether_fill">已填报</string>
 
 </resources>
